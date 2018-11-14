@@ -163,7 +163,7 @@ Prefab:
     - target: {fileID: 224988241991321662, guid: 109611a3b33d8434e9b3629c2953d200,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 26
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224988241991321662, guid: 109611a3b33d8434e9b3629c2953d200,
         type: 2}
@@ -219,7 +219,8 @@ Prefab:
       propertyPath: m_Text
       value: Cadastrar
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114022379276924692, guid: 109611a3b33d8434e9b3629c2953d200, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 109611a3b33d8434e9b3629c2953d200, type: 2}
   m_IsPrefabAsset: 0
 --- !u!224 &173167134 stripped
@@ -227,6 +228,22 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224988241991321662, guid: 109611a3b33d8434e9b3629c2953d200,
     type: 2}
   m_PrefabInternal: {fileID: 173167133}
+--- !u!1 &173167135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1376020205103260, guid: 109611a3b33d8434e9b3629c2953d200,
+    type: 2}
+  m_PrefabInternal: {fileID: 173167133}
+--- !u!114 &173167136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 173167135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ad4a9fd0acafde47b173bf1884ae4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &287390995
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +372,7 @@ Prefab:
     - target: {fileID: 224231482480157160, guid: 3771161459127734e8bcbb1f79e65a06,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -4
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 224231482480157160, guid: 3771161459127734e8bcbb1f79e65a06,
         type: 2}
@@ -578,7 +595,7 @@ Prefab:
     - target: {fileID: 224231482480157160, guid: 3771161459127734e8bcbb1f79e65a06,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -4
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 224231482480157160, guid: 3771161459127734e8bcbb1f79e65a06,
         type: 2}
@@ -754,10 +771,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 467.08, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -834,7 +851,7 @@ Prefab:
     - target: {fileID: 224231482480157160, guid: 3771161459127734e8bcbb1f79e65a06,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -4
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 224231482480157160, guid: 3771161459127734e8bcbb1f79e65a06,
         type: 2}

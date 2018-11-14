@@ -7,6 +7,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LoginMercado : MonoBehaviour {
 
@@ -14,14 +15,16 @@ public class LoginMercado : MonoBehaviour {
     public Text Login;
     public Text Senha;
 
+
     static string PasswordHash = string.Empty;
     static readonly string SaltKey = "Key@App";
     static readonly string VIKey = "@BitCoin2018";
+    
 
     // Use this for initialization
     void Start () {
-		
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -33,6 +36,7 @@ public class LoginMercado : MonoBehaviour {
     {
 
         PasswordHash = Senha.text;
+        SceneManager.LoadScene("APISelect", LoadSceneMode.Single);
     }
 
     public static string Encrypt(string plainText)
